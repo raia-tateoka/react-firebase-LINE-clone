@@ -1,8 +1,15 @@
+import { Botton } from '@mui/material'
 import React from 'react'
 
 function SignIn() {
+  function signInWithGoogle() {
+
+  }
+  
   return (
-    <div>SignIn</div>
+    <div>
+      <Botton onClick={signInWithGoogle}>グーグルでログインする</Botton>
+    </div>
   )
 }
 
